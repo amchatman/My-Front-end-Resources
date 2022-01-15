@@ -3,9 +3,42 @@ body{
   color:#ffffff;
   font-family:roboto;
 }
+h3{
+  text-align:center;
+}
 ul{
   list-style:none;
 }
 a{
   color:#ffffff;
+  text-decoration:none;
+}
+/*Media queries for Iphones and phone*/
+@media screen and (max-width:550px){
+.div-1{
+  width:500px;
+  margin:0 auto;
+  }
+  .list-title{
+    width:450px;
+    text-align:center;
+  }
+.div-1 ul{
+  width:450px;
+  margin:0 auto;
+  }
+  .div-1 li{
+    text-align:center;
+    font-size:14px;
+    line-height:16px;
+    padding-top:5px;
+    padding-bottom:5px;
+  }
+  #border-bottom{
+    border-bottom:2px solid #CBA135;
+    width:40px;
+    margin:0 auto;
+    position:relative;
+    bottom:20px;
+  }
 }
