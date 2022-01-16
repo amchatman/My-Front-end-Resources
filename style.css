@@ -15,7 +15,7 @@ a{
 }
 /*Media queries for Iphones and phone*/
 @media screen and (max-width:550px){
-.div-1{
+.div-1,.div-2, .div-3, .div-4{
   width:500px;
   margin:0 auto;
   }
@@ -23,22 +23,38 @@ a{
     width:450px;
     text-align:center;
   }
-.div-1 ul{
+.div-1 ul, .div-2 ul, .div-3 ul, .div-4 ul{
   width:450px;
   margin:0 auto;
   }
-  .div-1 li{
+  .div-1 li, .div-2 li, .div-3 li, .div-4 li{
     text-align:center;
     font-size:14px;
     line-height:16px;
     padding-top:5px;
     padding-bottom:5px;
   }
-  #border-bottom{
+  .border-bottom, .border-bottom-long{
     border-bottom:2px solid #CBA135;
-    width:40px;
     margin:0 auto;
     position:relative;
     bottom:20px;
+  }
+  .border-bottom{
+    width:60px;
+  }
+  .border-bottom-long{
+    width:90px;
+  }
+  footer{
+    width:550px;
+    margin:0 auto;
+  }
+  footer a, footer p{
+    font-size:12px;
+  }
+  .about,.signature{
+    font-size:14px;
+    line-height:16px;
   }
 }
