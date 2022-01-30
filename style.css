@@ -13,6 +13,11 @@ a{
   color:#ffffff;
   text-decoration:none;
 }
+.bar-1,.bar-2{
+  color:#CBA135;
+  height:10px;
+  background-color:#CBA135;
+}
 /*Media queries for Iphones and phone*/
 @media (max-device-width:480px){
 .about{
@@ -22,12 +27,10 @@ a{
 .div-1,.div-2, .div-3, .div-4{
   margin:0 auto;
   }
-  .list-title{
-    width:px;
-    text-align:center;
+.list-title{
+  text-align:center;
   }
 .div-1 ul, .div-2 ul, .div-3 ul, .div-4 ul{
-  width:px;
   margin:0 auto;
   }
   .div-1 li, .div-2 li, .div-3 li, .div-4 li{
@@ -59,24 +62,34 @@ a{
 
   }
 }
-/*Media Querries for Ipads */
-@media (max-device-width:810px){
+/*Tablets and Ipad devices*/
+
+@media only screen and (min-device-width:768px) and (max-device-width:1024px){
   .about{
     font-size:14px;
     margin:20px;
+    padding-left:20px;
+    padding-right:20px;
   }
-  .bar-1,.bar-2,.bar-3,.bar-4,.bar-5{
-    color:#CBA135;
+  .about p{
+    text-align:justify;
+  }
+  .bar-1,.bar-2{
+    margin-left:40px;
+    margin-right:40px;
   }
   .div-1,.div-2,.div-3,.div-4,footer{
     display:flex;
     justify-content:center;
+    flex-direction:row;
   }
   .div-1 ul, .div-2 ul, .div-3 ul, .div-4 ul{
-    margin-left:50px;
+    margin:50px;
+    padding:0;
+    flex:1px;
   }
   .div-1 li,.div-2 li, .div-3 li, .div-4 li{
-    padding-bottom:5px;
+    padding-bottom:15px;
   }
   footer{
     font-size:12px;
