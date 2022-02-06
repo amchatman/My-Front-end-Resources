@@ -13,11 +13,40 @@ a{
   color:#ffffff;
   text-decoration:none;
 }
+a:hover{
+  color:#CBA135;
+}
 .bar-1,.bar-2{
   color:#CBA135;
   height:10px;
   background-color:#CBA135;
 }
+.div-1,.div-2,.div-3,.div-4{
+  display:flex;
+  justify-content:center;
+  flex-direction:row;
+}
+.div-1 ul,.div-2 ul,.div-3 ul,.div-4 ul{
+  flex:1px;
+}
+.list li{
+  width:50%;
+  float:left;
+}
+.list li:nth-child(odd){
+  clear:left;
+}
+.description{
+  background-color:#ffffff;
+  color:#202020;
+  margin-top:5px;
+  font-size:12px;
+  display:none;
+}
+.link:hover + .description{
+  display:block;
+}
+
 /*Media queries for Iphones and phone*/
 @media (max-device-width:480px){
 .about{
@@ -40,6 +69,7 @@ a{
     padding-top:5px;
     padding-bottom:5px;
   }
+
   .border-bottom, .border-bottom-long{
     border-bottom:2px solid #CBA135;
     margin:0 auto;
@@ -59,7 +89,9 @@ a{
   }
   hr{
     margin:0 auto;
-
+  }
+  .description{
+    display:none;
   }
 }
 /*Tablets and Ipad devices*/
@@ -93,5 +125,8 @@ a{
   }
   footer{
     font-size:12px;
+  }
+  .description{
+    display:none;
   }
 }
