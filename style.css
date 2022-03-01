@@ -39,14 +39,20 @@ a:hover{
 .description{
   background-color:#ffffff;
   color:#202020;
-  margin-top:5px;
+  margin-top:2px;
+  padding:5px;
   font-size:12px;
   display:none;
 }
 .link:hover + .description{
   display:block;
 }
-
+footer{
+  font-size:12px;
+}
+footer p{
+  margin-top:5px;
+}
 /*Media queries for Iphones and phone*/
 @media (max-device-width:480px){
 .about{
@@ -89,6 +95,13 @@ a:hover{
   }
   hr{
     margin:0 auto;
+  }
+  .list li{
+    width:100%;
+    float:none;
+  }
+  .list li:nth-child(odd){
+    clear:none;
   }
   .description{
     display:none;
