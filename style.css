@@ -1,7 +1,7 @@
 body{
   background-color:#202020;
   color:#ffffff;
-  font-family:roboto;
+  font-family:"Roboto, sans-serif";
 }
 h3{
   text-align:center;
@@ -61,6 +61,7 @@ footer p{
 }
 .div-1,.div-2, .div-3, .div-4{
   margin:0 auto;
+  display:block;
   }
 .list-title{
   text-align:center;
@@ -138,8 +139,5 @@ footer p{
   }
   footer{
     font-size:12px;
-  }
-  .description{
-    display:none;
   }
 }
