@@ -54,7 +54,7 @@ footer p{
   margin-top:5px;
 }
 /*Media queries for Iphones and phone*/
-@media (max-device-width:480px){
+@media only screen and (max-device-width:480px){
 .about{
   font-size:14px;
   margin:20px;
