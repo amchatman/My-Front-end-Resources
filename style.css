@@ -16,6 +16,10 @@ a{
 a:hover{
   color:#CBA135;
 }
+.introduction{
+  text-align:center;
+  line-height: 1.6;
+}
 .bar-1,.bar-2{
   color:#CBA135;
   height:10px;
